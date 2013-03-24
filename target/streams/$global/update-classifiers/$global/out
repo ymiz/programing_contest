@@ -1,0 +1,1171 @@
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] :: resolving dependencies :: programing_contest#programing_contest$sources_javadoc_2.10;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.scala-lang#scala-library;2.10.1
+[info] Resolving org.scala-lang#scala-library;2.10.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21ba68e7
+[debug] sbt-chain: no namespace defined: using system
+[debug] No entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): /Users/una/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1
+[debug] sbt-chain: no latest strategy defined: using default
+[debug] local: no namespace defined: using system
+[debug] Entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml
+[debug] 	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): /Users/una/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.1
+[debug] 	checking org.scala-lang#scala-library;2.10.1 from sbt-chain against [none]
+[debug] 	module revision kept as first found: org.scala-lang#scala-library;2.10.1 from sbt-chain
+[debug] 	found org.scala-lang#scala-library;2.10.1 in sbt-chain
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile
+[debug] 	using sbt-chain to resolve net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[info] Resolving net.databinder.dispatch#dispatch-core_2.10;0.9.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54fd2de7
+[debug] No entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.9.5.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for net.databinder.dispatch#dispatch-core_2.10;0.9.5 (resolved by public): /Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.9.5.xml
+[debug] sbt-chain: module revision found in cache: net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.9.5.xml
+[debug] 	found ivy file in cache for net.databinder.dispatch#dispatch-core_2.10;0.9.5 (resolved by public): /Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.9.5.xml
+[debug] 	local: revision in cache: net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] 	checking net.databinder.dispatch#dispatch-core_2.10;0.9.5 from public against [none]
+[debug] 	module revision kept as first found: net.databinder.dispatch#dispatch-core_2.10;0.9.5 from public
+[debug] 	found net.databinder.dispatch#dispatch-core_2.10;0.9.5 in public
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile
+[debug] 	using sbt-chain to resolve com.ning#async-http-client;1.7.5
+[info] Resolving com.ning#async-http-client;1.7.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d25d8a0
+[debug] No entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for com.ning#async-http-client;1.7.5 (resolved by public): /Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml
+[debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.7.5
+[debug] Entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml
+[debug] 	found ivy file in cache for com.ning#async-http-client;1.7.5 (resolved by public): /Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml
+[debug] 	local: revision in cache: com.ning#async-http-client;1.7.5
+[debug] 	checking com.ning#async-http-client;1.7.5 from public against [none]
+[debug] 	module revision kept as first found: com.ning#async-http-client;1.7.5 from public
+[debug] 	found com.ning#async-http-client;1.7.5 in public
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile
+[debug] 	using sbt-chain to resolve io.netty#netty;3.4.4.Final
+[info] Resolving io.netty#netty;3.4.4.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e6ca715
+[debug] No entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for io.netty#netty;3.4.4.Final (resolved by public): /Users/una/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.4.4.Final
+[debug] Entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml
+[debug] 	found ivy file in cache for io.netty#netty;3.4.4.Final (resolved by public): /Users/una/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml
+[debug] 	local: revision in cache: io.netty#netty;3.4.4.Final
+[debug] 	checking io.netty#netty;3.4.4.Final from public against [none]
+[debug] 	module revision kept as first found: io.netty#netty;3.4.4.Final from public
+[debug] 	found io.netty#netty;3.4.4.Final in public
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile
+[debug] 	using sbt-chain to resolve org.slf4j#slf4j-api;1.6.2
+[info] Resolving org.slf4j#slf4j-api;1.6.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30fcaf45
+[debug] No entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml
+[debug] post 1.3 ivy file: using exact as default matcher
+[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.6.2 (resolved by public): /Users/una/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.2
+[debug] Entry is found in the ModuleDescriptorCache : /Users/una/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml
+[debug] 	found ivy file in cache for org.slf4j#slf4j-api;1.6.2 (resolved by public): /Users/una/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml
+[debug] 	local: revision in cache: org.slf4j#slf4j-api;1.6.2
+[debug] 	checking org.slf4j#slf4j-api;1.6.2 from public against [none]
+[debug] 	module revision kept as first found: org.slf4j#slf4j-api;1.6.2 from public
+[debug] 	found org.slf4j#slf4j-api;1.6.2 in public
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [runtime]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime
+[debug] runtime is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [test]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [runtime]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test
+[debug] test is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [provided]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=provided
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [optional]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=optional
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile-internal]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=compile-internal
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [optional]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [provided]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile-internal->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile-internal->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile-internal->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile-internal->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile-internal->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile-internal->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile-internal->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile-internal->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile-internal->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile-internal->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile-internal->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile-internal->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=compile-internal
+[debug] compile-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [runtime-internal]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime-internal
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [runtime]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [optional]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime-internal->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime-internal->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime-internal->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime-internal->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime-internal->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime-internal->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime-internal->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime-internal->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime-internal->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime-internal->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime-internal->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime-internal->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=runtime-internal
+[debug] runtime-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [test-internal]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [test]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [runtime]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [compile]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [compile->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [compile->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [compile->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [compile->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [runtime->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [runtime->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [runtime->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [runtime->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [runtime->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [optional]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [provided]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test-internal->default(compile)]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test-internal->runtime]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test-internal->compile]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.1 [test-internal->master]
+[debug] loadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test-internal->default(compile)]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test-internal->runtime]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test-internal->compile]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.9.5 [test-internal->master]
+[debug] loadData of net.databinder.dispatch#dispatch-core_2.10;0.9.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test-internal->default(compile)]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test-internal->runtime]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test-internal->compile]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->com.ning#async-http-client;1.7.5 [test-internal->master]
+[debug] loadData of com.ning#async-http-client;1.7.5 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test-internal->default(compile)]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test-internal->runtime]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test-internal->compile]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->io.netty#netty;3.4.4.Final [test-internal->master]
+[debug] loadData of io.netty#netty;3.4.4.Final of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test-internal->default(compile)]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test-internal->runtime]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test-internal->compile]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] == resolving dependencies programing_contest#programing_contest$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.6.2 [test-internal->master]
+[debug] loadData of org.slf4j#slf4j-api;1.6.2 of rootConf=test-internal
+[debug] test-internal is loaded and no conf to load.  Skip loading
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [plugin]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=plugin
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [sources]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=sources
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [docs]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=docs
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for programing_contest#programing_contest$sources_javadoc_2.10;1.0 [pom]
+[debug] loadData of programing_contest#programing_contest$sources_javadoc_2.10;1.0 of rootConf=pom
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] 	resolved ivy file produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/programing_contest/programing_contest$sources_javadoc_2.10/1.0/resolved.xml.xml
+[debug] :: downloading artifacts ::
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar(doc)
+[debug] org.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] org.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar
+[debug] 	[NOT REQUIRED] net.databinder.dispatch#dispatch-core_2.10;0.9.5!dispatch-core_2.10.jar(src)
+[debug] 	[NOT REQUIRED] net.databinder.dispatch#dispatch-core_2.10;0.9.5!dispatch-core_2.10.jar
+[debug] 	[NOT REQUIRED] net.databinder.dispatch#dispatch-core_2.10;0.9.5!dispatch-core_2.10.jar(doc)
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.7.5!async-http-client.jar(src)
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.7.5!async-http-client.jar
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.7.5!async-http-client.jar(doc)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.4.4.Final!netty.jar
+[debug] 	[NOT REQUIRED] io.netty#netty;3.4.4.Final!netty.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar(doc)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar
+[debug] :: resolution report :: resolve 773ms :: artifacts dl 117ms
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 compile produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/compile-resolved.xml
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 runtime produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/runtime-resolved.xml
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 test produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/test-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 provided produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/provided-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 optional produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/optional-resolved.xml
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 compile-internal produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/compile-internal-resolved.xml
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 runtime-internal produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/runtime-internal-resolved.xml
+[debug] Nbr of module to sort : 5
+[debug] Sort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0
+[debug] Sort done for : org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : net.databinder.dispatch#dispatch-core_2.10;0.9.5 / Number of dependencies = 2
+[debug] Non matching revision detected when sorting.  net.databinder.dispatch#dispatch-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1
+[debug] Sort dependencies of : com.ning#async-http-client;1.7.5 / Number of dependencies = 17
+[debug] Sort dependencies of : io.netty#netty;3.4.4.Final / Number of dependencies = 13
+[debug] Non matching revision detected when sorting.  io.netty#netty depends on org.slf4j#slf4j-api;1.6.4, doesn't match org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : io.netty#netty;3.4.4.Final
+[debug] Sort dependencies of : org.slf4j#slf4j-api;1.6.2 / Number of dependencies = 1
+[debug] Sort done for : org.slf4j#slf4j-api;1.6.2
+[debug] Sort done for : com.ning#async-http-client;1.7.5
+[debug] Sort done for : net.databinder.dispatch#dispatch-core_2.10;0.9.5
+[debug] Module descriptor is processed : com.ning#async-http-client;1.7.5
+[debug] Module descriptor is processed : io.netty#netty;3.4.4.Final
+[debug] Module descriptor is processed : org.slf4j#slf4j-api;1.6.2
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 test-internal produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/test-internal-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 plugin produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/plugin-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 sources produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/sources-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 docs produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/docs-resolved.xml
+[debug] Nbr of module to sort : 0
+[debug] 	report for programing_contest#programing_contest$sources_javadoc_2.10;1.0 pom produced in /Users/una/IdeaProjects/programing_contest/target/resolution-cache/reports/programing_contest-programing_contest$sources_javadoc_2.10/pom-resolved.xml
+[debug] 	resolve done (773ms resolve - 117ms download)
