@@ -1,3 +1,5 @@
+package shortestPath
+
 /**
  * Created with IntelliJ IDEA.
  * User: una

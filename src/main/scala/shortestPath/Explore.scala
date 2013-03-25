@@ -1,3 +1,5 @@
+package shortestPath
+
 import collection.mutable
 
 /**
