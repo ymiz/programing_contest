@@ -9,6 +9,7 @@ object main
     }
     args.head match {
       case "-s" => new ShortestPath().execute(args.tail)
+      case "-sub" => new SubsetSumProblem().execute(args.tail)
       case x  => println("Unknown option: '" + x + "'")
     }
   }

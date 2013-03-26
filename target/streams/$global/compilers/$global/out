@@ -1,8 +1,8 @@
 [debug] Getting compiler-interface from component compiler for Scala 2.10.1
 [debug] Other repositories:
 [debug] Default repositories:
-[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@345c2dd1)
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@392a90c5)
 [debug] Getting compiler-interface from component compiler for Scala 2.10.1
 [debug] Other repositories:
 [debug] Default repositories:
-[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@2d7509be)
+[debug] 	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1d442833)
