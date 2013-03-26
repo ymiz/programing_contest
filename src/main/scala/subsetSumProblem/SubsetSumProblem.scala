@@ -12,7 +12,7 @@ class SubsetSumProblem {
 
     //todo:sumと同じ数値がnumListにある場合は、numListの数字たちをgetSumsの返り値から取り除く必要あり
     if (getSums(numList, sum).contains(sum)) {
-      println("YES") //どの値が足し合わさってこの値ができたか分からない
+      println("YES") //どの値が足し合わさってこの値ができたか分からない！
     }else{
       println("NO")
     }
