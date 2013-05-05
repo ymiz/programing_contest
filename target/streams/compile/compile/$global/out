@@ -2,14 +2,30 @@
 [debug] Initial source changes: 
 [debug] 	removed:Set()
 [debug] 	added: Set()
-[debug] 	modified: Set()
+[debug] 	modified: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/greedyAlgorithm/GreedyAlgorithm.scala, /Users/una/IdeaProjects/programing_contest/src/main/scala/main.scala)
 [debug] Removed products: Set()
 [debug] Modified external sources: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set()
+[debug] Initial directly invalidated sources: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/greedyAlgorithm/GreedyAlgorithm.scala, /Users/una/IdeaProjects/programing_contest/src/main/scala/main.scala)
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] Initially invalidated: Set()
+[debug] Initially invalidated: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/greedyAlgorithm/GreedyAlgorithm.scala, /Users/una/IdeaProjects/programing_contest/src/main/scala/main.scala)
+[info] Compiling 2 Scala sources to /Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes...
+[debug] Running cached compiler 27cb0f81, interfacing (CompilerInterface) with Scala compiler version 2.10.1
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-d
+[debug] 	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes
+[debug] 	-bootclasspath
+[debug] 	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/una/.sbt/boot/scala-2.10.1/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes:/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.9.5.jar:/Users/una/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar:/Users/una/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar:/Users/una/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar
+[debug] Scala compilation took 1.368132 s
+[debug] Step 2 changed sources and immdediate dependencies:
+[debug] 	Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/greedyAlgorithm/GreedyAlgorithm.scala, /Users/una/IdeaProjects/programing_contest/src/main/scala/main.scala)
+[debug] Non-trivial strongly connected components: 
+[debug] 	
+[debug] Step 2 invalidated sources:
+[debug] 	Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/main.scala, /Users/una/IdeaProjects/programing_contest/src/main/scala/greedyAlgorithm/GreedyAlgorithm.scala)
