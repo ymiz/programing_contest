@@ -47,7 +47,6 @@ class Expedition {
   def explore(presentStation: (Int, Int), nextStation: (Int, Int), track: Track, pq:mutable.PriorityQueue[(Int, Int)]): Track = {
     //給油しなくても次のGSまで行けそうであれば、給油せず、queにGSを追加する
     val reachEnabled: Boolean = (nextStation._1 <= track.distanceFromStart + track.remainGas)
-    //println(reachEnabled)
     if(reachEnabled){
       if(presentStation._1 > 0){
        pq.enqueue(presentStation)
@@ -58,6 +57,7 @@ class Expedition {
     }else{
       //給油しないと次のGSまで行けない計算であれば、給油する
       usedGasStationList+=presentStation
+      //給油する
       var nextRemainGas: Int = track.remainGas - (presentStation._1 - track.distanceFromStart) + presentStation._2
       val reachNextStationEnabled: Boolean = nextRemainGas - (nextStation._1 - presentStation._1) >= 0
       if(!reachNextStationEnabled){
@@ -65,6 +65,7 @@ class Expedition {
         for (i <- 0 until pq.length){
           if(nextRemainGas - (nextStation._1 - presentStation._1) < 0){
             val queStation: (Int, Int) = pq.dequeue()
+            //給油する
             nextRemainGas += queStation._2
             usedGasStationList+=queStation
           }
