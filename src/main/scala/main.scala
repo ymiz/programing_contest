@@ -1,6 +1,7 @@
 import shortestPath.{ShortestPath, LabyrinthFactory, Explore}
 import greedyAlgorithm.GreedyAlgorithm
 import DynamicProgramming.DynamicProgramming
+import PriorityQueue.Expedition
 
 object main
 {
@@ -15,6 +16,7 @@ object main
       case "-sub" => new SubsetSumProblem().execute(args.tail)
       case "-greedy" => new GreedyAlgorithm().execute()
       case "-dynamic" => new DynamicProgramming().execute()
+      case "-p" => new Expedition().execute()
       case x  => println("Unknown option: '" + x + "'")
     }
     println((System.currentTimeMillis - start) + "msec") //時間計測用
