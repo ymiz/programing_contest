@@ -19,7 +19,7 @@ class Expedition {
 
 
 //  val gasStationNum: Int = 4 // N
-//  val distance: Int = 25 // L
+//  val cost: Int = 25 // L
 //  val initialGas: Int = 10 // P
 //  val gasStationDistanceList: List[Int] = List(10, 14, 20, 21) // A
 //  val gasQuantityList: List[Int] = List(10, 5, 2, 4) // B

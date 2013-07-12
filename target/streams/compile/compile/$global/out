@@ -1,31 +1,31 @@
-[debug] 
-[debug] Initial source changes: 
-[debug] 	removed:Set()
-[debug] 	added: Set()
-[debug] 	modified: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/EcologicalChain/EcologicalChain.scala)
-[debug] Removed products: Set()
-[debug] Modified external sources: Set()
-[debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/EcologicalChain/EcologicalChain.scala)
-[debug] 
-[debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
-[debug] 	binary dep: Set()
-[debug] 	external source: Set()
-[debug] Initially invalidated: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/EcologicalChain/EcologicalChain.scala)
-[info] Compiling 1 Scala source to /Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes...
-[debug] Running cached compiler 44f686dc, interfacing (CompilerInterface) with Scala compiler version 2.10.1
-[debug] Calling Scala compiler with arguments  (CompilerInterface):
-[debug] 	-d
-[debug] 	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes
-[debug] 	-bootclasspath
-[debug] 	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/una/.sbt/boot/scala-2.10.1/lib/scala-library.jar
-[debug] 	-classpath
-[debug] 	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes:/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.9.5.jar:/Users/una/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar:/Users/una/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar:/Users/una/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar
-[debug] Scala compilation took 10.436254 s
-[debug] Step 2 changed sources and immdediate dependencies:
-[debug] 	Set()
-[debug] Non-trivial strongly connected components: 
-[debug] 	
-[debug] Step 2 invalidated sources:
-[debug] 	Set()
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/Roadblocks/Roadblocks.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/Roadblocks/Roadblocks.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/una/IdeaProjects/programing_contest/src/main/scala/Roadblocks/Roadblocks.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 564941af, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/una/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/una/IdeaProjects/programing_contest/target/scala-2.10/classes:/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.10.1.jar:/Users/una/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.16.jar:/Users/una/.ivy2/cache/io.netty/netty/bundles/netty-3.6.3.Final.jar:/Users/una/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar:/Users/una/.ivy2/cache/net.liftweb/lift-json_2.9.2/jars/lift-json_2.9.2-2.5-M1.jar:/Users/una/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.2.jar:/Users/una/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar:/Users/una/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar:/Users/una/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.592692 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m

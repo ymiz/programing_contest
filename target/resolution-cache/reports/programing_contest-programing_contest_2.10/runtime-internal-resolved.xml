@@ -7,28 +7,84 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130320192401"/>
+		date="20130701190024"/>
 	<dependencies>
-		<module organisation="net.databinder.dispatch" name="dispatch-core_2.10">
-			<revision name="0.9.5" status="release" pubdate="20130107023025" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
-				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
-				<metadata-artifact status="no" details="" size="2709" time="0" location="/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.9.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.9.5/dispatch-core_2.10-0.9.5.pom"/>
-				<caller organisation="programing_contest" name="programing_contest_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.9.5" rev-constraint-default="0.9.5" rev-constraint-dynamic="0.9.5" callerrev="1.0"/>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.1" status="release" pubdate="20130313080713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.1/scala-compiler-2.10.1.pom"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
 				<artifacts>
-					<artifact name="dispatch-core_2.10" type="jar" ext="jar" status="no" details="" size="275413" time="0" location="/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.9.5.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.9.5/dispatch-core_2.10-0.9.5.jar"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.1" status="release" pubdate="20130313080549" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2552" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.1/scala-reflect-2.10.1.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.10.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3178531" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.1/scala-reflect-2.10.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.9.2">
+			<revision name="2.5-M1" status="release" pubdate="20120911053234" resolver="public" artresolver="public" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3043" time="0" location="/Users/una/.ivy2/cache/net.liftweb/lift-json_2.9.2/ivy-2.5-M1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M1/lift-json_2.9.2-2.5-M1.pom"/>
+				<caller organisation="programing_contest" name="programing_contest_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.5-M1" rev-constraint-default="2.5-M1" rev-constraint-dynamic="2.5-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lift-json_2.9.2" type="jar" ext="jar" status="no" details="" size="469683" time="0" location="/Users/una/.ivy2/cache/net.liftweb/lift-json_2.9.2/jars/lift-json_2.9.2-2.5-M1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M1/lift-json_2.9.2-2.5-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.4.1" status="release" pubdate="20120128183343" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<metadata-artifact status="no" details="" size="3447" time="0" location="/Users/una/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.5-M1"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29734" time="0" location="/Users/una/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.9.2" status="release" pubdate="20120413213538" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2516" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.5-M1"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="842198" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder.dispatch" name="dispatch-core_2.10">
+			<revision name="0.10.1" status="release" pubdate="20130525054848" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="successful" details="" size="1900" time="131" location="/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.10.1.xml" searched="true" original-local-location="/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.10.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.10.1/dispatch-core_2.10-0.10.1.pom"/>
+				<caller organisation="programing_contest" name="programing_contest_2.10" conf="optional, compile, runtime, runtime-internal" rev="0.10.1" rev-constraint-default="0.10.1" rev-constraint-dynamic="0.10.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="dispatch-core_2.10" type="jar" ext="jar" status="successful" details="" size="218440" time="229" location="/Users/una/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.10.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.10.1/dispatch-core_2.10-0.10.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.ning" name="async-http-client">
-			<revision name="1.7.5" status="release" pubdate="20120518015848" resolver="public" artresolver="public" homepage="http://github.com/sonatype/async-http-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+			<revision name="1.7.16" status="release" pubdate="20130521034045" resolver="public" artresolver="public" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="7137" time="0" location="/Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.pom"/>
-				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.10" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.9.5"/>
+				<metadata-artifact status="successful" details="" size="26952" time="85" location="/Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.16.xml" searched="true" original-local-location="/Users/una/.ivy2/cache/com.ning/async-http-client/ivy-1.7.16.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.pom"/>
+				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.10" conf="default, compile, runtime, master" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="0.10.1"/>
 				<artifacts>
-					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="476213" time="0" location="/Users/una/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.jar"/>
+					<artifact name="async-http-client" type="jar" ext="jar" status="successful" details="" size="496797" time="239" location="/Users/una/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -36,7 +92,7 @@
 		<module organisation="org.slf4j" name="slf4j-api">
 			<revision name="1.6.2" status="release" pubdate="20110819071308" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
 				<metadata-artifact status="no" details="" size="4133" time="0" location="/Users/una/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom"/>
-				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.7.5"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.7.16"/>
 				<artifacts>
 					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25689" time="0" location="/Users/una/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar"/>
@@ -45,13 +101,13 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.4.4.Final" status="release" pubdate="20120506234940" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+			<revision name="3.6.3.Final" status="release" pubdate="20130221225442" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="5915" time="0" location="/Users/una/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.pom"/>
-				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.4.4.Final" rev-constraint-default="3.4.4.Final" rev-constraint-dynamic="3.4.4.Final" callerrev="1.7.5"/>
+				<metadata-artifact status="no" details="" size="6425" time="0" location="/Users/una/.ivy2/cache/io.netty/netty/ivy-3.6.3.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.pom"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.6.3.Final" rev-constraint-default="3.6.3.Final" rev-constraint-dynamic="3.6.3.Final" callerrev="1.7.16"/>
 				<artifacts>
-					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="969176" time="0" location="/Users/una/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar"/>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1202373" time="0" location="/Users/una/.ivy2/cache/io.netty/netty/bundles/netty-3.6.3.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -60,8 +116,11 @@
 			<revision name="2.10.1" status="release" pubdate="20130313080420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
 				<metadata-artifact status="no" details="" size="2392" time="0" location="/Users/una/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.1/scala-library-2.10.1.pom"/>
-				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.0" callerrev="0.9.5"/>
+				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.10" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.10.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.10.1"/>
 				<caller organisation="programing_contest" name="programing_contest_2.10" conf="optional, compile, runtime, runtime-internal" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="2.10.1"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.9.2" callerrev="2.5-M1"/>
 				<artifacts>
 				</artifacts>
 			</revision>
